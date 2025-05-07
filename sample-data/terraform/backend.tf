@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "<TERRAFORM_BUCKET>"
-    prefix = "<TERRAFORM_ENV>"
+    bucket = "aef-atl-data-day-0508-459101-tfe"
+    prefix = "sample-data/environments/dev"
   }
 }
